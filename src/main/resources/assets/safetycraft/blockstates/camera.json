@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "safetycraft:block/camera" },
+    "facing=east": { "model": "safetycraft:block/camera", "y": 90 },
+    "facing=south": { "model": "safetycraft:block/camera", "y": 180 },
+    "facing=west": { "model": "safetycraft:block/camera", "y": 270 },
+    "facing=down": { "model": "safetycraft:block/ceiling_camera", "x": 180 },
+    "facing=up": { "model": "safetycraft:block/ceiling_camera" }
+  }
+}
