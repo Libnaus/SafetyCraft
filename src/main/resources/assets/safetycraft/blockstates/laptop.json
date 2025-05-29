@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "safetycraft:block/laptop" },
+    "facing=east": { "model": "safetycraft:block/laptop", "y": 90 },
+    "facing=south": { "model": "safetycraft:block/laptop", "y": 180 },
+    "facing=west": { "model": "safetycraft:block/laptop", "y": 270 }
+  }
+}

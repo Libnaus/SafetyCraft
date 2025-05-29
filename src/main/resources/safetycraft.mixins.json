@@ -5,8 +5,14 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "safetycraft.refmap.json",
   "mixins": [
+    "MixinCamera",
+    "MixinPlayer",
+    "MixinServerPlayerGameMode"
   ],
   "client": [
+    "MixinGui",
+    "MixinItemInHandRenderer",
+    "MixinLocalPlayer"
   ],
   "injectors": {
     "defaultRequire": 1

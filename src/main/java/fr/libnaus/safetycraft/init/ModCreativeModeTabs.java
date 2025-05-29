@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.safetycraft.safetycraft_tab"))
                     .displayItems((parameters, output) -> {
                         CREATIVE_TAB_ITEMS.forEach(item -> output.accept(item.get()));
+                        ModItems.ITEMS.getEntries().forEach(item -> output.accept(item.get()));
                     })
                     .build());
 

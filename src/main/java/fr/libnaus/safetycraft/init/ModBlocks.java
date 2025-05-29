@@ -2,6 +2,7 @@ package fr.libnaus.safetycraft.init;
 
 import fr.libnaus.safetycraft.Safetycraft;
 import fr.libnaus.safetycraft.blocks.CameraBlock;
+import fr.libnaus.safetycraft.blocks.LaptopBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -15,6 +16,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Safetycraft.MODID);
 
     public static final RegistryObject<Block> CAMERA = register("camera", CameraBlock::new);
+    public static final RegistryObject<Block> LAPTOP = register("laptop", LaptopBlock::new);
 
     /**
      * Registers a block with the given name and supplier, and also registers its corresponding BlockItem.

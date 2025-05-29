@@ -1,5 +1,6 @@
 {
   "itemGroup.safetycraft.safetycraft_tab": "SafetyCraft",
   "block.safetycraft.camera": "Camera",
-  "block.safetycraft.laptop": "Laptop"
+  "block.safetycraft.laptop": "Laptop",
+  "item.safetycraft.remote_control": "Remote Control"
 }
